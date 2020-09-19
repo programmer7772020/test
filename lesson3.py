@@ -10,6 +10,7 @@ def lcm(m, n):
         mn = mx % mn
         mx = mn1
     k = m * n / mn
+    a=3
     return k
 
 print(lcm(16,24))
